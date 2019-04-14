@@ -1,0 +1,97 @@
+@import "~iview/src/styles/index";
+// @import "./theme-color";
+// 行内表单
+.inline-form() {
+    .ivu-form-item,
+    .ivu-form-item-content,
+    .ivu-form-item-label {
+        display: inline-block;
+    }
+}
+
+// 静态表单
+.static-form .ivu-form-item:not(.ivu-form-item-error) {
+    margin-bottom: 0;
+}
+
+// 表格搜索表单，行内表单
+.table-search-form,
+.inline-form {
+    .ivu-form-item,
+    .ivu-form-item-content,
+    .ivu-form-item-label {
+        display: inline-block;
+    }
+    .ivu-form-item {
+        padding-right: 30px;
+    }
+    .ivu-form-item-label {
+        padding-right: 10px;
+    }
+}
+
+.table-search-form {
+    .ivu-form-item {
+        margin-bottom: 10px;
+    }
+    .ivu-select {
+        min-width: 160px;
+    }
+    .ivu-cascader {
+        margin-top: 1px;
+    }
+}
+
+.ivu-table-cell {
+    padding: 0 10px;
+}
+
+// 表格内的按钮组合
+.table-btn-group {
+    button {
+        margin: 5px; // 使用小按钮
+        padding: 3px 10px;
+        font-size: 12px;
+        border-radius: 3px;
+        min-width: 60px;
+    }
+}
+
+// 表格内的图片或者视频组合
+.ivu-table-cell .media-group {
+    text-align: center;
+}
+
+// iview 的表单输入框默认宽度100%，有时候不合适
+.inline-input .ivu-form-item-content {
+    display: inline-block;
+    margin-left: 0 !important;
+}
+
+// 覆盖字体大小
+//.ivu-form-item-content,
+//.ivu-form-item-label,
+//.ivu-table-header,
+//.ivu-table-body {
+//  font-size: 14px !important;
+//}
+//
+.ivu-modal-header-inner {
+    font-size: 16px;
+}
+
+.fillet-btn {
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+// .login-btn {
+//     background-color: @yellow-color;
+// }
+
+// .finds-btn {
+//     background-color: @black-color;
+// }
