@@ -6,6 +6,7 @@ import system from './modules/system';
 import access from './modules/access';
 
 Vue.use(Vuex);
+
 Vue.use(system);
 
 const store = new Vuex.Store({
